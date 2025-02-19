@@ -1,0 +1,63 @@
+﻿# Rider-specific files
+.idea/
+*.sln.iml
+workspace.xml
+riderProjects.xml
+
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+
+# .NET Core dependencies
+*.deps.json
+*.runtimeconfig.json
+
+# Logs and debug files
+logs/
+*.log
+*.bak
+*.cache
+*.tmp
+
+# Ignore compiled code
+*.exe
+*.dll
+*.out
+*.class
+
+# Ignore temporary Rider files
+.idea/
+*.sln.iml
+workspace.xml
+
+# Ignore JetBrains Rider settings
+*.DotSettings.user
+
+# Ignore test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore generated files
+GeneratedFiles/
+ServiceFabricBackup/
+
+# Ignore Rider-specific caches
+/.idea/
